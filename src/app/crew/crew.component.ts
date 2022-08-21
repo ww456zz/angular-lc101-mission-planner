@@ -26,8 +26,8 @@ remove(member : object) {
   this.crew.splice(idx,1)
 }
 
-edit(member: object) {
-  this.memberBeingEdited = member;
+edit(people: object) {
+  this.memberBeingEdited = people;
 }
 save(name: string, member: object) {
   member['name'] = name;
